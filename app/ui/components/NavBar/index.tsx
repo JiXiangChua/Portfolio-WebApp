@@ -9,7 +9,7 @@ const navLinks = [
   { title: "About", path: "/#about" },
   { title: "Projects", path: "/#projects" },
   { title: "Contact", path: "/#engaged" },
-  { title: "Resume", path: "" },
+  { title: "Resume", path: "/resume/Jace_Resume.pdf" },
 ];
 
 const NavBar = () => {

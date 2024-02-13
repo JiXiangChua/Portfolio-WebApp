@@ -17,6 +17,7 @@ const NavLink = ({
   return (
     <Link
       href={href}
+      target={title === "Resume" ? "_blank" : undefined}
       className={clsx(
         "block",
         {
