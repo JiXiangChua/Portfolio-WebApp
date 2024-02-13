@@ -45,28 +45,28 @@ const AboutSection = () => {
             </p>
             <div className="flex flex-row justify-between w-[80%] mt-10">
               <Image
-                src={"/images/Home/Brand-Singtel.png"}
+                src={"/static/images/Home/Brand-Singtel.png"}
                 alt="Singtel-logo"
                 width={136}
                 height={0}
                 className="object-contain"
               />
               <Image
-                src={"/images/Home/Brand-Creative.png"}
+                src={"/static/images/Home/Brand-Creative.png"}
                 alt="Creative-logo"
                 width={245}
                 height={0}
                 className="object-contain"
               />
               <Image
-                src={"/images/Home/Brand-Dell.png"}
+                src={"/static/images/Home/Brand-Dell.png"}
                 alt="Dell-logo"
                 width={80}
                 height={0}
                 className="object-contain"
               />
               <Image
-                src={"/images/Home/Brand-TheStar.png"}
+                src={"/static/images/Home/Brand-TheStar.png"}
                 alt="TheStar-logo"
                 width={150}
                 height={0}

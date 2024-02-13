@@ -44,7 +44,7 @@ export default {
       description:
         "My final year project endeavours to foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
       url: null,
-      imagePath: require("../../public/Images/Home/Tastee_Project.png"),
+      imagePath: require("../../public/static/images/Home/Tastee_Project.png"),
     },
     cohab: {
       title: "Virtual World To Share your Chores",
@@ -52,7 +52,7 @@ export default {
       description:
         "A one-stop integrated app that makes your cohabitation easier.",
       url: null,
-      imagePath: require("../../public/Images/Home/Cohab_Project.png"),
+      imagePath: require("../../public/static/images/Home/Cohab_Project.png"),
     },
     kfc: {
       title: "A New Experience to Order ",
@@ -60,7 +60,7 @@ export default {
       description:
         "Performed comprehensive user research to analyse pain points and subsequently crafted an entirely new, interactive, and seamless user experience.",
       url: "https://chuajixiang-dv2008-portfolio.webflow.io",
-      imagePath: require("../../public/Images/Home/KFC_Project.png"),
+      imagePath: require("../../public/static/images/Home/KFC_Project.png"),
     },
     furFitness: {
       title: "Brand Storytelling",
@@ -68,7 +68,7 @@ export default {
       description:
         " Through a strategic progression from Attention to Action, we aim to fulfill our customers' desires for a healthier, happier dog and provide a seamless booking experience.",
       url: "https://bmwassignment2021.wixsite.com/furfitness",
-      imagePath: require("../../public/Images/Home/FurFitness_Project.png"),
+      imagePath: require("../../public/static/images/Home/FurFitness_Project.png"),
     },
   },
   footer: {
