@@ -2,6 +2,7 @@ import AboutSection from "./ui/sections/About";
 import EngagedSection from "./ui/sections/Engaged";
 import Footer from "./ui/sections/Footer";
 import HeroBanner from "./ui/sections/HeroBanner";
+import ProjectsSection from "./ui/sections/Projects";
 
 export default function HomePage() {
   return (
@@ -13,7 +14,7 @@ export default function HomePage() {
         <AboutSection />
       </section>
       <section id="projects">
-        <p>Projects</p>
+        <ProjectsSection />
       </section>
       <section id="engaged">
         <EngagedSection />

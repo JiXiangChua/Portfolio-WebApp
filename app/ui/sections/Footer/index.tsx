@@ -10,7 +10,7 @@ const Footer = () => {
       </h1>
       <Link href={"https://www.instagram.com/jlostpixel"}>
         <Image
-          src={"/images/Home/Photography-Lens.png"}
+          src={"/static/images/Home/Photography-Lens.png"}
           alt="photography-lens"
           width={400}
           height={0}

@@ -9,7 +9,7 @@ const HeroBanner = () => {
       <div className="col-span-1"></div>
       <div className="col-span-1 place-self-center">
         <Image
-          src={"/images/Home/Jace-Picture.png"}
+          src={"/static/images/Home/Jace-Picture.png"}
           alt="Jace-Picture"
           width={700}
           height={700}
