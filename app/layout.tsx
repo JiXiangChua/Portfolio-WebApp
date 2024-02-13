@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`flex min-h-screen flex-col bg-[#FFFFFF] container mx-auto py-4 ${myFont.className}`}
+        className={`flex min-h-screen flex-col bg-[#FFFFFF] container mx-auto ${myFont.className}`}
       >
         <NavBar />
         {children}

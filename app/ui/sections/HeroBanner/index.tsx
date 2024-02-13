@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroBanner = () => {
   return (
-    <div className="bg-[#E1DFE0] grid grid-cols-1 md:grid-cols-3">
+    <div className="bg-[#E1DFE0] grid grid-cols-1 md:grid-cols-3 pt-20">
       <div className="col-span-1"></div>
       <div className="col-span-1 place-self-center">
         <Image

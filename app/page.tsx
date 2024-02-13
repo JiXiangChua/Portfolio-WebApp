@@ -2,7 +2,7 @@ import HeroBanner from "./ui/sections/HeroBanner";
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="container">
       <section id="hero">
         <HeroBanner />
       </section>
