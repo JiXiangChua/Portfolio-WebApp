@@ -1,9 +1,11 @@
-type Project = {
+export type Project = {
   title: string;
-  type: string;
+  type: "coding" | "design";
+  nature: string;
   description: string;
-  url: string | null;
-  imagePath: NodeRequire;
+  url: string;
+  imagePath: string;
+  backgroundColor: string;
 };
 
 type HomeDataProps = {
@@ -15,10 +17,7 @@ type HomeDataProps = {
   projects: {
     title: string;
     description: string;
-    tastee: Project;
-    cohab: Project;
-    kfc: Project;
-    furFitness: Project;
+    list: Project[];
   };
   footer: {
     title: string;
@@ -38,38 +37,48 @@ export default {
     title: "Projects.",
     description:
       "From responsive web designs that breathe life into brands to mobile apps that redefine user interactions, this is my personal journey of transforming ideas into visually stunning and user-friendly realities.",
-    tastee: {
-      title: "A Social Media App For Foodies and F&B Businesses",
-      type: "iOS Mobile App",
-      description:
-        "My final year project endeavours to foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
-      url: null,
-      imagePath: require("../../public/static/images/Home/Tastee_Project.png"),
-    },
-    cohab: {
-      title: "Virtual World To Share your Chores",
-      type: "React Native App",
-      description:
-        "A one-stop integrated app that makes your cohabitation easier.",
-      url: null,
-      imagePath: require("../../public/static/images/Home/Cohab_Project.png"),
-    },
-    kfc: {
-      title: "A New Experience to Order ",
-      type: "Interface Design",
-      description:
-        "Performed comprehensive user research to analyse pain points and subsequently crafted an entirely new, interactive, and seamless user experience.",
-      url: "https://chuajixiang-dv2008-portfolio.webflow.io",
-      imagePath: require("../../public/static/images/Home/KFC_Project.png"),
-    },
-    furFitness: {
-      title: "Brand Storytelling",
-      type: "Website Copywriting",
-      description:
-        " Through a strategic progression from Attention to Action, we aim to fulfill our customers' desires for a healthier, happier dog and provide a seamless booking experience.",
-      url: "https://bmwassignment2021.wixsite.com/furfitness",
-      imagePath: require("../../public/static/images/Home/FurFitness_Project.png"),
-    },
+    list: [
+      {
+        title: "A Social Media App For Foodies and F&B Businesses",
+        nature: "iOS Mobile App",
+        type: "coding",
+        description:
+          "My final year project endeavours to foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
+        url: "/tastee",
+        imagePath: "/static/images/Home/Tastee_Project.png",
+        backgroundColor: "#35465D",
+      },
+      {
+        title: "Virtual World To Share your Chores",
+        nature: "React Native App",
+        type: "coding",
+        description:
+          "A one-stop integrated app that makes your cohabitation easier.",
+        url: "/cohab",
+        imagePath: "/static/images/Home/Cohab_Project.png",
+        backgroundColor: "#B2A0DE",
+      },
+      {
+        title: "A New Experience to Order ",
+        nature: "Interface Design",
+        type: "design",
+        description:
+          "Performed comprehensive user research to analyse pain points and subsequently crafted an entirely new, interactive, and seamless user experience.",
+        url: "https://chuajixiang-dv2008-portfolio.webflow.io",
+        imagePath: "/static/images/Home/KFC_Project.png",
+        backgroundColor: "#000000",
+      },
+      {
+        title: "Brand Storytelling",
+        nature: "Website Copywriting",
+        type: "design",
+        description:
+          " Through a strategic progression from Attention to Action, we aim to fulfill our customers' desires for a healthier, happier dog and provide a seamless booking experience.",
+        url: "https://bmwassignment2021.wixsite.com/furfitness",
+        imagePath: "/static/images/Home/FurFitness_Project.png",
+        backgroundColor: "#FBC864",
+      },
+    ],
   },
   footer: {
     title: "Engaged?",
