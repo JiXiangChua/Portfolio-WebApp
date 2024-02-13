@@ -16,7 +16,9 @@ const HeroBanner = () => {
         />
       </div>
       <div className="col-span-1 flex flex-col justify-center items-center md:items-start">
-        <h1 className="font-medium text-[32px] lg:text-[60px]">Hello! I'm</h1>
+        <h1 className="font-medium text-[32px] lg:text-[60px]">
+          Hello! I&apos;m
+        </h1>
         <div className="font-normal text-[40px] lg:text-[54px] leading-none">
           <TypeAnimation
             sequence={[

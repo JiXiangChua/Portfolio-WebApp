@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "../MenuOverlay";
 
 const navLinks = [
-  { title: "About", path: "/#introduction" },
+  { title: "About", path: "/#about" },
   { title: "Projects", path: "/#projects" },
   { title: "Contact", path: "/#engaged" },
   { title: "Resume", path: "" },
@@ -18,7 +18,7 @@ const NavBar = () => {
     <nav className="fixed top-0 container z-10 bg-[#E1DFE0] bg-opacity-90">
       <div className="flex flex-wrap items-center justify-between mx-auto px-10 py-4">
         <Link href={"/"}>
-          <p className="font-normal text-black  text-[22px]">Jace Chua</p>
+          <p className="font-normal text-[#0F0F0F]  text-[22px]">Jace Chua</p>
         </Link>
         {/* Mobile Menu Bar */}
         <div className="mobile-menu block md:hidden">

@@ -20,7 +20,8 @@ const NavLink = ({
       className={clsx(
         "block",
         {
-          "md:bg-black md:w-min md:h-min md:rounded-[20px]": title === "Resume",
+          "md:bg-[#0F0F0F] md:w-min md:h-min md:rounded-[20px]":
+            title === "Resume",
         },
         {
           "md:bg-[#ffffff] md:w-min md:h-min md:rounded-[20px]":
@@ -30,7 +31,7 @@ const NavLink = ({
       onClick={dismissMobileMenu}
     >
       <p
-        className={clsx("text-[22px] font-normal text-black p-3", {
+        className={clsx("text-[22px] font-normal text-[#0F0F0F] p-3", {
           "md:text-white": title === "Resume",
         })}
       >

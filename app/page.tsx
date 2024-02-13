@@ -1,3 +1,4 @@
+import AboutSection from "./ui/sections/About";
 import HeroBanner from "./ui/sections/HeroBanner";
 
 export default function HomePage() {
@@ -6,8 +7,8 @@ export default function HomePage() {
       <section id="hero">
         <HeroBanner />
       </section>
-      <section id="introduction">
-        <p>Introduction</p>
+      <section id="about">
+        <AboutSection />
       </section>
       <section id="projects">
         <p>Projects</p>
