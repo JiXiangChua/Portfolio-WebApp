@@ -8,7 +8,7 @@ const descriptions = footer.description.split(".");
 
 const EngagedSection = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center py-20">
+    <div className="w-full flex flex-col justify-center items-center pt-20">
       <div className="w-[80%] flex flex-col justify-center items-center">
         <h1 className="font-bold text-[64px] py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
           {footer.title}
