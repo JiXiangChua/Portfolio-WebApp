@@ -1,4 +1,5 @@
 import AboutSection from "./ui/sections/About";
+import EngagedSection from "./ui/sections/Engaged";
 import Footer from "./ui/sections/Footer";
 import HeroBanner from "./ui/sections/HeroBanner";
 
@@ -15,10 +16,9 @@ export default function HomePage() {
         <p>Projects</p>
       </section>
       <section id="engaged">
-        <p>Engaged</p>
+        <EngagedSection />
       </section>
       <footer id="photography">
-        <p>Footer - photography</p>
         <Footer />
       </footer>
     </main>

@@ -8,7 +8,7 @@ const { introduction } = HomeData;
 const AboutSection = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="flex flex-col gap-2 w-[75%] items-center py-14">
+      <div className="flex flex-col gap-2 w-[75%] items-center py-20">
         <h1 className="font-bold text-[64px] py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
           {introduction.title}
         </h1>
