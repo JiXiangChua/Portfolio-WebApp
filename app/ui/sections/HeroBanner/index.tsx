@@ -16,18 +16,17 @@ const HeroBanner = () => {
         />
       </div>
       <div className="col-span-1 flex flex-col justify-center items-center md:items-start">
-        <h1 className="font-medium text-[32px] lg:text-[60px]">
-          Hello! I&apos;m
-        </h1>
+        <h1 className="font-light text-[24px] lg:text-[52px]">Quick Peek!</h1>
+        <h1 className="font-medium text-[32px] lg:text-[60px]">I&apos;m a</h1>
         <div className="font-normal text-[40px] lg:text-[54px] leading-none">
           <TypeAnimation
             sequence={[
-              "Jace Chua",
-              1200,
               "Software Engineer",
-              1200,
-              "in Mobile Apps",
-              1200,
+              1000,
+              "UI/UX Designer",
+              1000,
+              "NTU Graduate",
+              1000,
             ]}
             wrapper="span"
             speed={50}
