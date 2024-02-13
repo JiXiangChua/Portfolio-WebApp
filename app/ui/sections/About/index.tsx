@@ -8,7 +8,7 @@ const { introduction } = HomeData;
 const AboutSection = () => {
   return (
     <div className="w-full flex justify-center items-center">
-      <div className="flex flex-col gap-2 w-[75%] items-center py-20">
+      <div className="flex flex-col gap-2 items-center py-20">
         <h1 className="font-bold text-[64px] py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
           {introduction.title}
         </h1>
@@ -19,7 +19,7 @@ const AboutSection = () => {
             {introduction.location}
           </p>
         </div>
-        <div className="w-[85%] py-4">
+        <div className="w-[60%] py-4">
           <p className="text-[24px] font-normal text-[#5B5B5B] text-justify text-wrap">
             I graduated from the{" "}
             <span className="font-medium text-[#0F0F0F]">
