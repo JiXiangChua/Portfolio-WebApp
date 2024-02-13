@@ -1,4 +1,5 @@
 import AboutSection from "./ui/sections/About";
+import Footer from "./ui/sections/Footer";
 import HeroBanner from "./ui/sections/HeroBanner";
 
 export default function HomePage() {
@@ -18,6 +19,7 @@ export default function HomePage() {
       </section>
       <footer id="photography">
         <p>Footer - photography</p>
+        <Footer />
       </footer>
     </main>
   );
