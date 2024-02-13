@@ -25,6 +25,8 @@ const HeroBanner = () => {
               1000,
               "UI/UX Designer",
               1000,
+              "Photographer",
+              1000,
               "NTU Graduate",
               1000,
             ]}
