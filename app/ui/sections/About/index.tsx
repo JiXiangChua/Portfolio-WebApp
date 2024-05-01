@@ -9,7 +9,7 @@ const AboutSection = () => {
   return (
     <div className="w-full flex justify-center items-cente">
       <div className="flex flex-col gap-2 items-center pt-10 lg:pt-20">
-        <h1 className="font-bold text-[40px] md:text-[64px] py-2 lg:py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+        <h1 className="font-bold text-[40px] lg:text-[64px] py-2 lg:py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
           {introduction.title}
         </h1>
         <div className="flex flex-row py-2 lg:py-4 items-center">

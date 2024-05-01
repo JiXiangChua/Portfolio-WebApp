@@ -43,7 +43,7 @@ export default {
         nature: "iOS Mobile App",
         type: "coding",
         description:
-          "My final year project endeavours to foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
+          "To foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
         url: "/tastee",
         imagePath: "/static/images/Home/Tastee_Project.png",
         backgroundColor: "#35465D",
