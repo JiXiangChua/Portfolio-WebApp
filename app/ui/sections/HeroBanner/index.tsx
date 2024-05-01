@@ -8,17 +8,31 @@ const HeroBanner = () => {
     <div className="bg-[#E1DFE0] grid grid-cols-1 md:grid-cols-3 pt-20">
       <div className="col-span-1"></div>
       <div className="col-span-1 place-self-center">
+        {/* For Desktop Mode */}
         <Image
           src={"/static/images/Home/Jace-Picture.png"}
           alt="Jace-Picture"
           width={700}
           height={700}
+          className="hidden md:block"
+        />
+        {/* For Mobile Mode */}
+        <Image
+          src={"/static/images/Home/Jace-Picture.png"}
+          alt="Jace-Picture"
+          width={200}
+          height={200}
+          className="block md:hidden"
         />
       </div>
       <div className="col-span-1 flex flex-col justify-center items-center md:items-start">
-        <h1 className="font-light text-[24px] lg:text-[52px]">Quick Peek!</h1>
-        <h1 className="font-medium text-[32px] lg:text-[60px]">I&apos;m a</h1>
-        <div className="font-normal text-[40px] lg:text-[54px] leading-none">
+        <h1 className="font-light text-[20px] md:text-[24px] lg:text-[52px] py-2 md:py-0">
+          Quick Peek!
+        </h1>
+        <h1 className="font-medium text-[24px] md:text-[32px] lg:text-[40px] xl:text-[60px]">
+          I&apos;m a
+        </h1>
+        <div className="font-normal text-[30px] lg:text-[40px] xl:text-[54px] leading-none pb-10 md:py-0">
           <TypeAnimation
             sequence={[
               "Software Engineer",
