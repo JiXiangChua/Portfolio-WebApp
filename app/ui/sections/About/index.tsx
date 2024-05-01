@@ -40,7 +40,7 @@ const AboutSection = () => {
             photography and serenading to C-POP music.
           </p>
         </div>
-        <div className="my-10 w-full flex flex-col justify-center items-center">
+        <div className="my-6 lg:my-10 w-full flex flex-col justify-center items-center">
           <div className="h-[200px] w-[1px] bg-[#5B5B5B] mb-10"></div>
           <div className="flex flex-col justify-center items-center w-full">
             <p className="text-[16px] md:text-[24px] font-normal text-[#5B5B5B]">
