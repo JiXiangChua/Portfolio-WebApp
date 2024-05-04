@@ -4,6 +4,7 @@ import ProjectBanner from "@/app/ui/components/ProjectBanner";
 import ProjectsData from "@/app/constants/ProjectsData";
 import CardText from "@/app/ui/components/CardText";
 import ProblemSection from "./ProblemSection";
+import DesignSection from "./DesignSection";
 
 const { cohab: CohabData } = ProjectsData;
 
@@ -18,10 +19,16 @@ export default function CohabPage() {
         />
       </section>
       <section
-        id="problem-statement"
+        id="problem"
         className="flex flex-col justify-center items-center my-2 lg:my-6 xl:my-10"
       >
-        <ProblemSection />
+        <ProblemSection data={CohabData} />
+      </section>
+      <section
+        id="design"
+        className="flex flex-col justify-center items-center bg-white my-2 lg:my-6 xl:my-10 py-4 lg:py-6 xl:py-10"
+      >
+        <DesignSection data={CohabData} />
       </section>
     </main>
   );

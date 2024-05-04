@@ -1,19 +1,18 @@
 import React, { memo } from "react";
 import Image from "next/image";
 import CardText from "@/app/ui/components/CardText";
-import ProjectsData from "@/app/constants/ProjectsData";
+import { ProjectProp } from "@/app/constants/ProjectsData";
 
-const { cohab: CohabData } = ProjectsData;
+type ProblemSectionProps = {
+  data: ProjectProp;
+};
 
-const ProblemSection = memo(() => {
+const ProblemSection = memo((props: ProblemSectionProps) => {
+  const { data } = props;
   return (
     <>
       <div className="w-[80%] md:w-[70%]">
-        <CardText
-          title="Problem"
-          text={CohabData.problem.statement}
-          gradientText
-        />
+        <CardText title="Problem" text={data.problem.statement} gradientText />
       </div>
       <div className="w-[100%] flex justify-center items-center">
         <Image
@@ -28,26 +27,24 @@ const ProblemSection = memo(() => {
       <div className="w-[80%] md:w-[70%]">
         <CardText
           title="Objective"
-          text={CohabData.problem.objective}
+          text={data.problem.objective}
           gradientText
         />
       </div>
       <div className="flex flex-col justify-center items-center gap-8 my-10">
         <div className="text-center">
           <h2 className="text-[24px] md:text-[32px] font-bold">Key Features</h2>
-          <p>{CohabData.problem.keyFeatures.subtitle}</p>
+          <p>{data.problem?.keyFeatures?.subtitle}</p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 justify-between items-start w-[80%]">
           {/* Finance */}
           <div className="text-center p-4">
             <h2 className="text-[18px] md:text-[24px] font-bold">Finance</h2>
-            {CohabData.problem.keyFeatures.features.Finance.map(
-              (text, index) => (
-                <p key={index} className="py-4">
-                  {text}
-                </p>
-              )
-            )}
+            {data.problem?.keyFeatures?.features.Finance.map((text, index) => (
+              <p key={index} className="py-4">
+                {text}
+              </p>
+            ))}
           </div>
           <div
             id="divider"
@@ -58,7 +55,7 @@ const ProblemSection = memo(() => {
             <h2 className="text-[18px] md:text-[24px] font-bold">
               Chore and Tasks
             </h2>
-            {CohabData.problem.keyFeatures.features["Chores and Tasks"].map(
+            {data.problem?.keyFeatures?.features["Chores and Tasks"].map(
               (text, index) => (
                 <p key={index} className="py-4">
                   {text}
@@ -73,13 +70,11 @@ const ProblemSection = memo(() => {
           {/* Calendar */}
           <div className="text-center p-4">
             <h2 className="text-[18px] md:text-[24px] font-bold">Calendar</h2>
-            {CohabData.problem.keyFeatures.features.Calendar.map(
-              (text, index) => (
-                <p key={index} className="py-4">
-                  {text}
-                </p>
-              )
-            )}
+            {data.problem?.keyFeatures?.features.Calendar.map((text, index) => (
+              <p key={index} className="py-4">
+                {text}
+              </p>
+            ))}
           </div>
         </div>
       </div>
