@@ -1,3 +1,7 @@
+interface Recommendation {
+  [key: string]: string;
+}
+
 export type ProjectProp = {
   header: {
     type: string;
@@ -39,11 +43,7 @@ export type ProjectProp = {
   summary: {
     descriptions: string[];
   };
-  recommendation:
-    | undefined
-    | {
-        [key: string]: string;
-      };
+  recommendation: undefined | Recommendation;
 };
 
 type ProjectDataProp = {
