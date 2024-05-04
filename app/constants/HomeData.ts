@@ -44,7 +44,7 @@ export default {
         type: "coding",
         description:
           "To foster enhanced post-pandemic opportunities, particularly for local hawkers, by leveraging innovative strategies and technologies.",
-        url: "/tastee",
+        url: "/projects/tastee",
         imagePath: "/static/images/Home/Tastee_Project.png",
         backgroundColor: "#35465D",
       },
@@ -54,7 +54,7 @@ export default {
         type: "coding",
         description:
           "A one-stop integrated app that makes your cohabitation easier.",
-        url: "/cohab",
+        url: "/projects/cohab",
         imagePath: "/static/images/Home/Cohab_Project.png",
         backgroundColor: "#B2A0DE",
       },

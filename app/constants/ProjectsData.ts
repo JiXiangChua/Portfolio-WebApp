@@ -1,4 +1,8 @@
-type ProjectProp = {
+interface Recommendation {
+  [key: string]: string;
+}
+
+export type ProjectProp = {
   header: {
     type: string;
     title: string;
@@ -39,11 +43,7 @@ type ProjectProp = {
   summary: {
     descriptions: string[];
   };
-  recommendation:
-    | undefined
-    | {
-        [key: string]: string;
-      };
+  recommendation: undefined | Recommendation;
 };
 
 type ProjectDataProp = {
@@ -128,7 +128,7 @@ export default {
       type: "iOS/Android Mobile App",
       title: "CoHab – The One Stop Platform for Communal Living",
       projectSummary:
-        "In response to the challenges faced by university students living together and the limitations of existing applications like Roommate, our team embarked on a mission to develop a superior solution—CoHab. Recognizing the relevance of streamlined communication in shared living spaces, we sought to address the shortcomings of Roommate by creating a comprehensive, user-friendly platform tailored to the needs of cohabitants.",
+        "Our team embarked on a mission to develop a superior solution—CoHab. Recognizing the relevance of streamlined communication in shared living spaces, we sought to address the shortcomings of Roommate by creating a comprehensive, user-friendly platform tailored to the needs of cohabitants.",
       responsibilities: ["Frontend Developer"],
       technologyStack: [
         "React Native",
