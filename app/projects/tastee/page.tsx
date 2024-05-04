@@ -3,6 +3,7 @@ import ProjectsData from "@/app/constants/ProjectsData";
 import ProjectBanner from "@/app/ui/components/ProjectBanner";
 import CardText from "@/app/ui/components/CardText";
 import FeatureCard from "@/app/ui/components/FeatureCard";
+import Link from "next/link";
 
 const { tastee: TasteeData } = ProjectsData;
 
@@ -208,6 +209,52 @@ export default function TasteePage() {
             imageAltText="profile-screen"
             imageWidth="100%"
           />
+        </div>
+      </section>
+      <section
+        id="summary"
+        className="flex flex-col justify-center items-center py-20 bg-white mb-40"
+      >
+        <div className="w-[80%] flex flex-col gap-8">
+          <div>
+            <h3 className="text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+              Summary
+            </h3>
+          </div>
+          <p>{TasteeData.summary.descriptions[0]}</p>
+          <p>
+            <strong>This project followed the software waterfall model</strong>,
+            which involved various stages such as requirement analysis,
+            planning, modelling, coding, and testing.
+          </p>
+          <p>
+            To design a product that catered to the users' needs and
+            expectations, I conducted{" "}
+            <strong>user research to obtain valuable insights.</strong>
+          </p>
+          <p>
+            <strong>Using Swift and XCode</strong>, I developed the product
+            while continuously testing all the implemented features to ensure
+            the product's stability.
+          </p>
+          <p>
+            Towards the end of the development, I added{" "}
+            <strong>
+              image recognition functionality to enhance the services and user
+              experience
+            </strong>{" "}
+            of this product using neural network.
+          </p>
+          <div>
+            <Link href={"/#projects"}>
+              <p>
+                Thank you for your interest in my project.{" "}
+                <span className="text-[#353cff]">
+                  Click here to view other projects.
+                </span>
+              </p>
+            </Link>
+          </div>
         </div>
       </section>
     </main>
