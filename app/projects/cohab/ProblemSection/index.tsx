@@ -82,4 +82,6 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
   );
 });
 
+ProblemSection.displayName = "ProblemSection";
+
 export default ProblemSection;

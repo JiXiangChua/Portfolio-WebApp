@@ -86,4 +86,6 @@ const ProjectBanner = memo((props: ProjectBannerProps) => {
   );
 });
 
+ProjectBanner.displayName = "ProjectBanner";
+
 export default ProjectBanner;

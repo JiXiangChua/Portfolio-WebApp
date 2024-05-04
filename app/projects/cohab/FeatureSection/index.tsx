@@ -127,4 +127,6 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
   );
 });
 
+FeatureSection.displayName = "FeatureSection";
+
 export default FeatureSection;

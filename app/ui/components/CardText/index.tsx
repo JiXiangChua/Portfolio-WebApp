@@ -29,4 +29,6 @@ const CardText = memo((props: CardTextProp) => {
   );
 });
 
+CardText.displayName = "CardText";
+
 export default CardText;

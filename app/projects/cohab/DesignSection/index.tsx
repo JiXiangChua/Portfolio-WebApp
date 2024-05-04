@@ -64,4 +64,6 @@ const DesignSection = memo((props: DesignSectionProps) => {
   );
 });
 
+DesignSection.displayName = "DesignSection";
+
 export default DesignSection;

@@ -60,4 +60,6 @@ const FeatureCard = memo((props: FeatureCardProp) => {
   return direction === "left-right" ? leftRightCard() : upDownCard();
 });
 
+FeatureCard.displayName = "FeatureCard";
+
 export default FeatureCard;

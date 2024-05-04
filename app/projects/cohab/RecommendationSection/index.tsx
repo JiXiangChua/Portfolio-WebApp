@@ -27,4 +27,6 @@ const RecommendationSection = memo((props: RecommendationSectionProps) => {
   );
 });
 
+RecommendationSection.displayName = "RecommendationSection";
+
 export default RecommendationSection;

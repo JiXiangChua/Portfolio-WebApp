@@ -228,14 +228,14 @@ export default function TasteePage() {
             planning, modelling, coding, and testing.
           </p>
           <p>
-            To design a product that catered to the users' needs and
+            To design a product that catered to the users&apos; needs and
             expectations, I conducted{" "}
             <strong>user research to obtain valuable insights.</strong>
           </p>
           <p>
             <strong>Using Swift and XCode</strong>, I developed the product
             while continuously testing all the implemented features to ensure
-            the product's stability.
+            the product&apos;s stability.
           </p>
           <p>
             Towards the end of the development, I added{" "}
