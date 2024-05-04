@@ -1,4 +1,4 @@
-type ProjectProp = {
+export type ProjectProp = {
   header: {
     type: string;
     title: string;
