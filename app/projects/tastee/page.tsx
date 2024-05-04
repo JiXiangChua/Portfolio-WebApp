@@ -9,7 +9,7 @@ const { tastee: TasteeData } = ProjectsData;
 
 export default function TasteePage() {
   return (
-    <main className="text-[16px] md:text-[18px] text-[#0F0F0F] leading-[40px] bg-[#F5F5F5]">
+    <main className="text-[12px] md:text-[16px] xl:text-[18px] text-[#0F0F0F] leading-1 xl:leading-[40px] bg-[#F5F5F5]">
       <section id="project-banner">
         <ProjectBanner
           bannerImagePath={"/static/images/Tastee/Tastee-banner.png"}
@@ -19,9 +19,9 @@ export default function TasteePage() {
       </section>
       <section
         id="problem-statement"
-        className="flex flex-col justify-center items-center my-10"
+        className="flex flex-col justify-center items-center my-2 lg:my-6 xl:my-10"
       >
-        <div className="w-[70%]">
+        <div className="w-[80%] md:w-[70%]">
           <CardText
             title="Problem"
             text={TasteeData.problem.statement}
@@ -35,14 +35,14 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[60%]"
+            className="w-[90%] md:w-[60%]"
           />
         </div>
-        <div className="w-[50%] flex flex-col gap-10 my-10">
+        <div className="w-[80%] md:w-[50%] flex flex-col gap-10 my-10">
           <p>{TasteeData.problem.descriptions[0]}</p>
           <p>{TasteeData.problem.descriptions[1]}</p>
         </div>
-        <div className="w-[80%] flex flex-row justify-center items-center gap-10">
+        <div className="w-[80%] flex flex-col-reverse md:flex-row justify-center items-center gap-10">
           <p>{TasteeData.problem.descriptions[2]}</p>
           <Image
             src={"/static/images/Tastee/Tastee-problem-2.png"}
@@ -50,10 +50,10 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[40%]"
+            className="w-[80%] md:w-[40%]"
           />
         </div>
-        <div className="w-[70%] my-10">
+        <div className="w-[70%] my-2 md:my-10">
           <CardText
             title="Objective"
             text={TasteeData.problem.objective}
@@ -63,23 +63,23 @@ export default function TasteePage() {
       </section>
       <section
         id="research"
-        className="flex flex-col justify-center items-center py-20 bg-white"
+        className="flex flex-col justify-center items-center py-8 md:py-20 bg-white"
       >
         <div className="w-[80%]">
-          <h3 className="text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+          <h3 className="text-[24px] md:text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
             Research
           </h3>
-          <p className="my-8">{TasteeData.research.descriptions[0]}</p>
+          <p className="py-4 md:my-8">{TasteeData.research.descriptions[0]}</p>
           <p>{TasteeData.research.descriptions[1]}</p>
         </div>
-        <div className="flex flex-row justify-between items-center my-10">
+        <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-10">
           <Image
             src={"/static/images/Tastee/Tastee-research-1.png"}
             alt={"research-1"}
             width={0}
             height={0}
             sizes="1"
-            className="w-[33%]"
+            className="w-[60%] md:w-[33%]"
           />
           <Image
             src={"/static/images/Tastee/Tastee-research-2.png"}
@@ -87,7 +87,7 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[33%]"
+            className="w-[60%] md:w-[33%]"
           />
           <Image
             src={"/static/images/Tastee/Tastee-research-3.png"}
@@ -95,27 +95,27 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[33%]"
+            className="w-[60%] md:w-[33%]"
           />
         </div>
         <div className="w-[80%]">
-          <p className="my-8">{TasteeData.research.descriptions[2]}</p>
+          <p className="my-4 md:my-8">{TasteeData.research.descriptions[2]}</p>
           <p>{TasteeData.research.descriptions[3]}</p>
         </div>
       </section>
       <section
         id="features"
-        className="flex flex-col justify-center items-center my-10 py-10"
+        className="flex flex-col justify-center items-center my-4 md:my-8 py-4 md:py-8"
       >
         <div className="w-[80%]">
-          <h2 className="text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+          <h2 className="text-[24px] md:text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
             Features
           </h2>
           <div
             id="login-register"
             className="flex flex-col justify-center items-center"
           >
-            <div className="flex flex-row gap-10">
+            <div className="flex flex-col md:flex-row md:gap-10">
               <CardText
                 title="Login"
                 text={TasteeData.features.Login}
@@ -213,11 +213,11 @@ export default function TasteePage() {
       </section>
       <section
         id="summary"
-        className="flex flex-col justify-center items-center py-20 bg-white mb-40"
+        className="flex flex-col justify-center items-center py-10 xl:py-20 bg-white mb-40"
       >
         <div className="w-[80%] flex flex-col gap-8">
           <div>
-            <h3 className="text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+            <h3 className="text-[24px] md:text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
               Summary
             </h3>
           </div>

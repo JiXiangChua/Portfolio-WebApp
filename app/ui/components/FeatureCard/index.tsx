@@ -26,7 +26,7 @@ const FeatureCard = memo((props: FeatureCardProp) => {
     return (
       <div
         id={title}
-        className="flex flex-row justify-center items-center my-20 gap-4"
+        className="flex flex-col md:flex-row justify-center items-center my-6 md:my-20 gap-2 md:gap-4"
       >
         <CardText title={title} text={text} transparent />
         <Image
@@ -35,7 +35,7 @@ const FeatureCard = memo((props: FeatureCardProp) => {
           width={0}
           height={0}
           sizes="1"
-          className={`w-[${imageWidth}] rounded-[20px]`}
+          className={`w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
         />
       </div>
     );
@@ -51,7 +51,7 @@ const FeatureCard = memo((props: FeatureCardProp) => {
           width={0}
           height={0}
           sizes="1"
-          className={`w-[${imageWidth}] rounded-[20px]`}
+          className={`w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
         />
       </div>
     );
