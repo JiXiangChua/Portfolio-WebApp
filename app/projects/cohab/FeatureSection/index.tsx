@@ -2,6 +2,7 @@ import React, { memo } from "react";
 import Image from "next/image";
 import FeatureCard from "../../../ui/components/FeatureCard";
 import { ProjectProp } from "@/app/constants/ProjectsData";
+import CardText from "@/app/ui/components/CardText";
 
 type FeatureSectionProp = {
   data: ProjectProp;
@@ -82,14 +83,32 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
           imageAltText="cohab-home-screen"
           imageWidth="40%"
         />
-        <FeatureCard
+        {/* <FeatureCard
           direction="left-right"
           title="Notification"
           text={data.features.Notification}
           imagePath="/static/images/Cohab/Cohab-Notification.png"
           imageAltText="cohab-notification-screen"
           imageWidth="20%"
-        />
+        /> */}
+        <div
+          id="Notification"
+          className="flex flex-col md:flex-row justify-center items-center"
+        >
+          <CardText
+            title="Notification"
+            text={data.features.Notification}
+            transparent
+          />
+          <Image
+            src="/static/images/Cohab/Cohab-Notification.png"
+            alt="cohab-notification-screen"
+            width={0}
+            height={0}
+            sizes="1"
+            className="w-[20%] rounded-[10px] md:rounded-[20px]"
+          />
+        </div>
         <FeatureCard
           direction="left-right"
           title="Finance"

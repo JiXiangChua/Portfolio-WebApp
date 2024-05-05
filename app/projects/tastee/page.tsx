@@ -173,7 +173,7 @@ export default function TasteePage() {
             imageAltText="random-food-selector-screen"
             imageWidth="40%"
           />
-          <FeatureCard
+          {/* <FeatureCard
             direction="left-right"
             title="Deals"
             text={TasteeData.features.Deals}
@@ -181,7 +181,25 @@ export default function TasteePage() {
             imagePath="/static/images/Tastee/Tastee-Deals.png"
             imageAltText="deals-screen"
             imageWidth="20%"
-          />
+          /> */}
+          <div
+            id="Deals"
+            className="flex flex-col md:flex-row justify-center items-center"
+          >
+            <CardText
+              title="Deals"
+              text={TasteeData.features.Deals}
+              transparent
+            />
+            <Image
+              src="/static/images/Tastee/Tastee-Deals.png"
+              alt="deals-screen"
+              width={0}
+              height={0}
+              sizes="1"
+              className="w-[20%] rounded-[10px] md:rounded-[20px]"
+            />
+          </div>
           <FeatureCard
             direction="left-right"
             title="Create New Post"
