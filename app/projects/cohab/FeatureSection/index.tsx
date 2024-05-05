@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import Image from "next/image";
-import FeatureCard from "@/app/ui/components/FeatureCard";
+import FeatureCard from "../../../ui/components/FeatureCard";
 import { ProjectProp } from "@/app/constants/ProjectsData";
 
 type FeatureSectionProp = {

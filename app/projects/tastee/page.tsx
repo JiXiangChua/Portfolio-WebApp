@@ -1,9 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import ProjectsData from "@/app/constants/ProjectsData";
 import ProjectBanner from "@/app/ui/components/ProjectBanner";
 import CardText from "@/app/ui/components/CardText";
-import FeatureCard from "@/app/ui/components/FeatureCard";
-import Link from "next/link";
+import FeatureCard from "../../ui/components/FeatureCard";
 
 const { tastee: TasteeData } = ProjectsData;
 
