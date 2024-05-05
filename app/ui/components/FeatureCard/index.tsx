@@ -35,7 +35,7 @@ const FeatureCard = memo((props: FeatureCardProp) => {
           width={0}
           height={0}
           sizes="1"
-          className={`w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
+          className={`w-[80%] md:w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
         />
       </div>
     );
@@ -51,7 +51,7 @@ const FeatureCard = memo((props: FeatureCardProp) => {
           width={0}
           height={0}
           sizes="1"
-          className={`w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
+          className={`w-[100%] md:w-[${imageWidth}] rounded-[10px] md:rounded-[20px]`}
         />
       </div>
     );
