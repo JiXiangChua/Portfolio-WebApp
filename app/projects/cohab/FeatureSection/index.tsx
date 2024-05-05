@@ -43,7 +43,7 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
               width={0}
               height={0}
               sizes="1"
-              className="w-[75%] rounded-[10px] md:rounded-[20px]"
+              className="w-[80%] rounded-[10px] md:rounded-[20px]"
             />
           </div>
         </div>
