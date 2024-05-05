@@ -197,7 +197,7 @@ export default function TasteePage() {
               width={0}
               height={0}
               sizes="1"
-              className="w-[20%] rounded-[10px] md:rounded-[20px]"
+              className="w-[40%] md:w-[20%] rounded-[10px] md:rounded-[20px]"
             />
           </div>
           <FeatureCard
