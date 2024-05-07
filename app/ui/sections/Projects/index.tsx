@@ -23,7 +23,7 @@ const ProjectsSection = () => {
 
   const renderFilterTabs = () => {
     return (
-      <div className="w-[250px] h-[50px] lg:w-[400px] lg:h-[80px] bg-[#D9D9D9] rounded-[12px] lg:rounded-[20px] flex flex-row">
+      <div className="w-[300px] h-[50px] lg:w-[400px] lg:h-[80px] bg-[#D9D9D9] rounded-[12px] lg:rounded-[20px] flex flex-row">
         <button
           className={clsx(
             "w-[50%] h-[100%] rounded-[12px] lg:rounded-[20px] flex justify-center items-center",
@@ -35,7 +35,7 @@ const ProjectsSection = () => {
         >
           <p
             className={clsx(
-              "font-bold text-[20px] lg:text-[28px] text-[#A9A9A9]",
+              "font-bold text-[24px] lg:text-[32px] text-[#A9A9A9]",
               {
                 "text-[#FFFFFF]": selectCoding,
               }
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
         >
           <p
             className={clsx(
-              "font-bold text-[20px] lg:text-[28px] text-[#A9A9A9]",
+              "font-bold text-[24px] lg:text-[32px] text-[#A9A9A9]",
               {
                 "text-[#FFFFFF]": !selectCoding,
               }

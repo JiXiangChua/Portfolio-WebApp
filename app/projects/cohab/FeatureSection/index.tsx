@@ -51,7 +51,7 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
         </div>
         <div
           id="neighbourhood"
-          className="flex flex-col justify-center items-start my-10 w-[80%]"
+          className="flex flex-col justify-center items-start my-10 w-[100%] md:w-[80%]"
         >
           <h2 className="text-[24px] md:text-[28px] font-semibold">
             Neighbourhood
