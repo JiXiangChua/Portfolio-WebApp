@@ -21,7 +21,7 @@ export default function TasteePage() {
         id="problem-statement"
         className="flex flex-col justify-center items-center my-2 lg:my-6 xl:my-10"
       >
-        <div className="w-[80%] md:w-[70%]">
+        <div className="w-[90%] md:w-[70%]">
           <CardText
             title="Problem"
             text={TasteeData.problem.statement}
@@ -53,7 +53,7 @@ export default function TasteePage() {
             className="w-[80%] md:w-[40%]"
           />
         </div>
-        <div className="w-[70%] my-2 md:my-10">
+        <div className="w-[90%] my-2 md:my-10">
           <CardText
             title="Objective"
             text={TasteeData.problem.objective}

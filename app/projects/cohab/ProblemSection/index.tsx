@@ -11,7 +11,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
   const { data } = props;
   return (
     <>
-      <div className="w-[80%] md:w-[70%]">
+      <div className="w-[90%] md:w-[70%]">
         <CardText title="Problem" text={data.problem.statement} gradientText />
       </div>
       <div className="w-[100%] flex justify-center items-center">
@@ -24,7 +24,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
           className="w-[90%] md:w-[60%]"
         />
       </div>
-      <div className="w-[80%] md:w-[70%]">
+      <div className="w-[90%] md:w-[70%]">
         <CardText
           title="Objective"
           text={data.problem.objective}
@@ -32,7 +32,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
         />
       </div>
       <div className="flex flex-col justify-center items-center gap-8 my-10">
-        <div className="text-center">
+        <div className="text-center px-8">
           <h2 className="text-[24px] md:text-[32px] font-bold">Key Features</h2>
           <p>{data.problem?.keyFeatures?.subtitle}</p>
         </div>
