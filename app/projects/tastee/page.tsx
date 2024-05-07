@@ -9,7 +9,7 @@ const { tastee: TasteeData } = ProjectsData;
 
 export default function TasteePage() {
   return (
-    <main className="text-[12px] md:text-[16px] xl:text-[18px] text-[#0F0F0F] leading-1 xl:leading-[40px] bg-[#F5F5F5]">
+    <main className="text-[18px] lg:text-[22px] text-[#0F0F0F] leading-1 xl:leading-[40px] bg-[#F5F5F5]">
       <section id="project-banner">
         <ProjectBanner
           bannerImagePath={"/static/images/Tastee/Tastee-banner.png"}
@@ -38,7 +38,7 @@ export default function TasteePage() {
             className="w-[90%] md:w-[60%]"
           />
         </div>
-        <div className="w-[80%] md:w-[50%] flex flex-col gap-10 my-10">
+        <div className="w-[80%] md:w-[70%] xl:w-[50%] flex flex-col gap-10 my-10">
           <p>{TasteeData.problem.descriptions[0]}</p>
           <p>{TasteeData.problem.descriptions[1]}</p>
         </div>
@@ -72,14 +72,14 @@ export default function TasteePage() {
           <p className="py-4 md:my-8">{TasteeData.research.descriptions[0]}</p>
           <p>{TasteeData.research.descriptions[1]}</p>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center my-4 md:my-10">
+        <div className="flex flex-col xl:flex-row justify-between items-center my-4 md:my-10">
           <Image
             src={"/static/images/Tastee/Tastee-research-1.png"}
             alt={"research-1"}
             width={0}
             height={0}
             sizes="1"
-            className="w-[60%] md:w-[33%]"
+            className="w-[80%] xl:w-[33%]"
           />
           <Image
             src={"/static/images/Tastee/Tastee-research-2.png"}
@@ -87,7 +87,7 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[60%] md:w-[33%]"
+            className="w-[80%] xl:w-[33%]"
           />
           <Image
             src={"/static/images/Tastee/Tastee-research-3.png"}
@@ -95,7 +95,7 @@ export default function TasteePage() {
             width={0}
             height={0}
             sizes="1"
-            className="w-[60%] md:w-[33%]"
+            className="w-[80%] xl:w-[33%]"
           />
         </div>
         <div className="w-[80%]">
