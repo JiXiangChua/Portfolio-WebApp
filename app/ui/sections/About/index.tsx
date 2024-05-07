@@ -18,12 +18,12 @@ const AboutSection = () => {
             className="h-[20px] w-[20px]  lg:h-[32px] lg:w-[32px]"
             color="#969699"
           />
-          <p className="font-normal text-[20px] md:text-[32px] pl-2 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+          <p className="font-normal text-[22px] md:text-[32px] pl-2 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
             {introduction.location}
           </p>
         </div>
         <div className="w-[85%] lg:w-[60%] py-2 lg:py-4">
-          <p className="text-[16px] md:text-[24px] font-normal text-[#5B5B5B] text-justify text-wrap">
+          <p className="text-[20px] md:text-[24px] font-normal text-[#5B5B5B] text-justify text-wrap">
             I graduated from the{" "}
             <span className="font-medium text-[#0F0F0F]">
               Nanyang Technological University
@@ -43,7 +43,7 @@ const AboutSection = () => {
         <div className="my-6 lg:my-10 w-full flex flex-col justify-center items-center">
           <div className="h-[200px] w-[1px] bg-[#5B5B5B] mb-10"></div>
           <div className="flex flex-col justify-center items-center w-full">
-            <p className="text-[16px] md:text-[24px] font-normal text-[#5B5B5B]">
+            <p className="text-[20px] md:text-[24px] font-normal text-[#5B5B5B]">
               A few brands I&apos;ve worked with
             </p>
             <div className="flex flex-col lg:flex-row justify-between items-center w-[80%] mt-10 gap-20 lg:gap-0">

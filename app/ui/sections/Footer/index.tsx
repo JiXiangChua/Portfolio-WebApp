@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center bg-black py-4 mt-10">
+    <div className="w-full flex flex-col justify-center items-center bg-black py-4 mt-10 pb-20">
       <h1 className="font-bold text-[40px] lg:text-[64px] my-4 lg:my-10 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
         Looking For More?
       </h1>
@@ -27,7 +27,7 @@ const Footer = () => {
             className="object-contain block md:hidden"
           />
         </div>
-        <p className="font-thin text-[16px] lg:text-[24px] text-[#747474] mt-4">
+        <p className="font-thin text-[20px] lg:text-[24px] text-[#747474] mt-4">
           Check out what I do during my free time
         </p>
       </Link>

@@ -16,7 +16,7 @@ const CardText = memo((props: CardTextProp) => {
       } rounded-[20px] px-6 md:px-10 py-6 md:py-10 my-6 md:my-10`}
     >
       <h3
-        className={`text-[20px] xl:text-[32px] font-bold ${
+        className={`text-[24px] md:text-[28px] xl:text-[32px] font-bold ${
           gradientText
             ? "bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text"
             : ""
@@ -24,7 +24,7 @@ const CardText = memo((props: CardTextProp) => {
       >
         {title}
       </h3>
-      <p className="mt-4">{text}</p>
+      <p className="mt-4 text-[18px] md:text-[22px]">{text}</p>
     </div>
   );
 });

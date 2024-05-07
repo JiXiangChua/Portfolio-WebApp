@@ -21,7 +21,9 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
           className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-20 my-10"
         >
           <div className="flex flex-col">
-            <h2 className="text-[20px] md:text-[28px] font-semibold">Splash</h2>
+            <h2 className="text-[24px] md:text-[28px] font-semibold mb-4">
+              Splash
+            </h2>
             <p className="mb-10">{data.features.Splash}</p>
             <Image
               src={"/static/images/Cohab/Cohab-Splash.png"}
@@ -33,7 +35,7 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
             />
           </div>
           <div className="flex flex-col">
-            <h2 className="text-[20px] md:text-[28px] font-semibold">
+            <h2 className="text-[24px] md:text-[28px] font-semibold mb-4">
               Login / Register
             </h2>
             <p className="mb-10">{data.features["Login/Register"]}</p>
@@ -51,7 +53,7 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
           id="neighbourhood"
           className="flex flex-col justify-center items-start my-10 w-[80%]"
         >
-          <h2 className="text-[20px] md:text-[28px] font-semibold">
+          <h2 className="text-[24px] md:text-[28px] font-semibold">
             Neighbourhood
           </h2>
           <p className="mt-4">{data.features.Neighbourhood}</p>
@@ -69,7 +71,7 @@ const FeatureSection = memo((props: FeatureSectionProp) => {
             className="w-[100%] md:w-[60%] rounded-[10px] md:rounded-[20px]"
           />
           <div>
-            <h2 className="text-[20px] mt-4 md:text-[28px] font-semibold">
+            <h2 className="text-[24px] mt-4 md:text-[28px] font-semibold">
               Avatar
             </h2>
             <p className="mt-4">{data.features.Avatar}</p>

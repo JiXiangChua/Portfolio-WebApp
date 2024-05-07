@@ -32,9 +32,12 @@ const NavLink = ({
       onClick={dismissMobileMenu}
     >
       <p
-        className={clsx("text-[22px] font-normal text-[#0F0F0F] p-3", {
-          "md:text-white": title === "Resume",
-        })}
+        className={clsx(
+          "text-[20px] lg:text-[22px] font-normal text-[#0F0F0F] p-3",
+          {
+            "md:text-white": title === "Resume",
+          }
+        )}
       >
         {title}
       </p>

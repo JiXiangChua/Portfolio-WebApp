@@ -11,7 +11,7 @@ type ProjectBannerProps = {
 const ProjectBanner = memo((props: ProjectBannerProps) => {
   const { bannerImagePath, appLogoPath, project } = props;
   return (
-    <div className="relative w-full text-white">
+    <div className="relative w-full text-white text-[16px]">
       <div className="relative w-full">
         <Image
           src={bannerImagePath}
@@ -48,7 +48,7 @@ const ProjectBanner = memo((props: ProjectBannerProps) => {
             <h3 className="text-[10px] md:text-[20px] font-semibold">
               Project Summary
             </h3>
-            <p className="text-[7px] md:text-[14px] xl:text-[18px]">
+            <p className="text-[7px] md:text-[15px] xl:text-[18px]">
               {project.header.projectSummary}
             </p>
           </div>
@@ -60,7 +60,7 @@ const ProjectBanner = memo((props: ProjectBannerProps) => {
             {project.header.responsibilities.map((responsibility, index) => (
               <p
                 key={index}
-                className="text-[8px] md:text-[14px] xl:text-[18px]"
+                className="text-[7px] md:text-[15px] xl:text-[18px]"
               >
                 {responsibility}
               </p>
@@ -74,7 +74,7 @@ const ProjectBanner = memo((props: ProjectBannerProps) => {
             {project.header.technologyStack.map((skill, index) => (
               <p
                 key={index}
-                className="text-[8px] md:text-[14px] xl:text-[18px]"
+                className="text-[7px] md:text-[15px] xl:text-[18px]"
               >
                 {skill}
               </p>
