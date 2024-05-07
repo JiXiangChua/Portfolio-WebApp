@@ -39,7 +39,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
         <div className="flex flex-col md:flex-row gap-4 justify-between items-start w-[80%]">
           {/* Finance */}
           <div className="text-center p-4">
-            <h2 className="text-[18px] md:text-[24px] font-bold">Finance</h2>
+            <h2 className="text-[22px] md:text-[24px] font-bold">Finance</h2>
             {data.problem?.keyFeatures?.features.Finance.map((text, index) => (
               <p key={index} className="py-4">
                 {text}
@@ -52,7 +52,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
           ></div>
           {/* Chores and Tasks */}
           <div className="text-center p-4">
-            <h2 className="text-[18px] md:text-[24px] font-bold">
+            <h2 className="text-[22px] md:text-[24px] font-bold">
               Chore and Tasks
             </h2>
             {data.problem?.keyFeatures?.features["Chores and Tasks"].map(
@@ -69,7 +69,7 @@ const ProblemSection = memo((props: ProblemSectionProps) => {
           ></div>
           {/* Calendar */}
           <div className="text-center p-4">
-            <h2 className="text-[18px] md:text-[24px] font-bold">Calendar</h2>
+            <h2 className="text-[22px] md:text-[24px] font-bold">Calendar</h2>
             {data.problem?.keyFeatures?.features.Calendar.map((text, index) => (
               <p key={index} className="py-4">
                 {text}

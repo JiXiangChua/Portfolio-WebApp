@@ -12,7 +12,7 @@ const DesignSection = memo((props: DesignSectionProps) => {
     <>
       <div className="w-[80%] md:w-[70%]">
         <div>
-          <h1 className="text-[20px] md:text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
+          <h1 className="text-[24px] md:text-[32px] font-bold bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
             Design
           </h1>
           <p className="my-4">{data.design?.subtitle}</p>
