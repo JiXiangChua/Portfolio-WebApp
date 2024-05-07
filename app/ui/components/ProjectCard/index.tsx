@@ -12,7 +12,7 @@ const ProjectCard = ({ project, imageOnLeft }: ProjectCardProps) => {
   const renderImageOnLeftCard = () => {
     return (
       <div
-        className="w-[100%] h-[500px] rounded-[10px] grid grid-cols-1 lg:grid-cols-5 overflow-clip"
+        className="w-[100%] h-[600px] md:h-[500px] rounded-[10px] grid grid-cols-1 lg:grid-cols-5 overflow-clip"
         style={{ backgroundColor: project.backgroundColor }}
       >
         <div className="lg:col-span-3 flex justify-center items-center">
@@ -44,13 +44,13 @@ const ProjectCard = ({ project, imageOnLeft }: ProjectCardProps) => {
           />
         </div>
         <div className="lg:col-span-2 gap-2 flex flex-col justify-center items-end text-wrap px-10 w-[100%] xl:w-[80%]">
-          <p className="font-medium text-[12px] lg:text-[18px] text-[#3C3C3C] text-end">
+          <p className="font-medium text-[14px] lg:text-[18px] text-[#3C3C3C] text-end">
             {project.nature}
           </p>
-          <h1 className="font-bold text-[20px] lg:text-[40px] text-[#0F0F0F] text-end">
+          <h1 className="font-bold text-[24px] lg:text-[40px] text-[#0F0F0F] text-end">
             {project.title}
           </h1>
-          <p className="font-normal text-[16px] lg:text-[20px] text-[#0F0F0F] text-end">
+          <p className="font-normal text-[20px] lg:text-[20px] text-[#0F0F0F] text-end">
             {project.description}
           </p>
           <Link href={project.url}>
@@ -65,17 +65,17 @@ const ProjectCard = ({ project, imageOnLeft }: ProjectCardProps) => {
   const renderImageOnRightCard = () => {
     return (
       <div
-        className="w-[100%] h-[500px] rounded-[10px] grid grid-cols-1 lg:grid-cols-5 overflow-clip"
+        className="w-[100%] h-[650px] md:h-[500px] rounded-[10px] grid grid-cols-1 lg:grid-cols-5 overflow-clip"
         style={{ backgroundColor: project.backgroundColor }}
       >
         <div className="lg:col-span-3 gap-2 flex flex-col justify-center items-start text-wrap px-10 w-[80%]">
-          <p className="font-medium text-[12px] lg:text-[18px] text-[#DDDDDD]">
+          <p className="font-medium text-[14px] lg:text-[18px] text-[#DDDDDD]">
             {project.nature}
           </p>
-          <h1 className="font-bold text-[20px] lg:text-[40px] text-[#FFFFFF]">
+          <h1 className="font-bold text-[24px] lg:text-[40px] text-[#FFFFFF]">
             {project.title}
           </h1>
-          <p className="font-normal text-[16px] lg:text-[20px] text-[#FFFFFF]">
+          <p className="font-normal text-[20px] lg:text-[20px] text-[#FFFFFF]">
             {project.description}
           </p>
           <Link href={project.url}>
@@ -106,7 +106,7 @@ const ProjectCard = ({ project, imageOnLeft }: ProjectCardProps) => {
             height={0}
             sizes="1"
             style={{
-              width: "75%",
+              width: "80%",
               aspectRatio: "auto",
             }}
             className="block md:hidden self-center"

@@ -74,7 +74,7 @@ const ProjectsSection = () => {
         {projects.title}
       </h1>
       <div className="w-[85%] lg:w-[60%] my-8">
-        <p className="font-normal text-[16px] md:text-[24px] text-[#5B5B5B] text-wrap">
+        <p className="font-normal text-[20px] md:text-[24px] text-[#5B5B5B] text-wrap">
           From responsive web designs that breathe life into brands to mobile
           apps that redefine user interactions, this is my{" "}
           <span className="font-medium text-[#0F0F0F]">personal journey</span>{" "}
@@ -86,7 +86,7 @@ const ProjectsSection = () => {
         {/* Filter Button */}
         {renderFilterTabs()}
         <div className="my-4">
-          <p className="font-normal text-[16px] lg:text-[24px] text-[#5B5B5B] text-center">
+          <p className="font-normal text-[20px] lg:text-[24px] text-[#5B5B5B] text-center">
             Select a project to find out more!
           </p>
         </div>

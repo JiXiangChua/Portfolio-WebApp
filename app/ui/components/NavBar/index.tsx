@@ -18,7 +18,7 @@ const NavBar = () => {
     <nav className="fixed top-0 container z-10 bg-[#E1DFE0] bg-opacity-90">
       <div className="flex flex-wrap items-center justify-between mx-auto px-10 py-4">
         <Link href={"/"}>
-          <p className="font-normal text-[#0F0F0F] text-[16px] md:text-[22px]">
+          <p className="font-normal text-[#0F0F0F] text-[18px] md:text-[22px]">
             Jace Chua
           </p>
         </Link>

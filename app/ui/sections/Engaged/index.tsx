@@ -14,7 +14,7 @@ const EngagedSection = () => {
         <h1 className="font-bold text-[40px] lg:text-[64px] py-4 bg-gradient-to-r from-[#969699] to-[#1E1E22] inline-block text-transparent bg-clip-text">
           {footer.title}
         </h1>
-        <p className="font-normal text-[16px] md:text-[24px] text-[#5B5B5B] text-center my-4">
+        <p className="font-normal text-[20px] md:text-[24px] text-[#5B5B5B] text-center my-4">
           {descriptions[0] + ". " + descriptions[1] + "."}
           <br></br>
           {descriptions[2] + "."}
@@ -26,7 +26,7 @@ const EngagedSection = () => {
           href={"mailto:jixiangchua2697@gmail.com"}
           className="my-4 lg:my-8 py-2 lg:py-4 px-6 lg:px-12 border border-[#0F0F0F] rounded-[8px] lg:rounded-[10px]"
         >
-          <p className="font-normal text-[20px] text-[#0F0F0F]">Connect</p>
+          <p className="font-normal text-[24px] text-[#0F0F0F]">Connect</p>
         </Link>
         <div className="flex flex-row gap-4">
           <Link href={"https://www.instagram.com/xjustjixiang"}>
